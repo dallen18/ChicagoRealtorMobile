@@ -8,7 +8,35 @@ import LoginScreen from './src/screens/loginScreen';
 import LandingScreen from './src/screens/landingScreen';
 import ionic from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-vector-icons/Ionicons';
+import { View } from 'react-native';
 
+
+
+
+{/* <View>
+  <Svg width={120} height={40} fill={"any color"} />
+</View> */}
+// const styles = {
+  
+//   logo: {
+//     marginTop: 20,
+//     marginBottom: 20,
+//   },
+//   container: {
+//     flex: 1,
+//     justifyContent: 'flex-start',
+//     alignItems: 'center',
+//     backgroundColor: '#efefef',
+//   },
+//   scrollView: {
+//     width: '100%',
+//   },
+//   containerStyles: {
+//     display: 'flex',
+//     flexDirection: 'column',
+//     alignItems: 'center',
+//   },
+// };
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
