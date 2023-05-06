@@ -6,7 +6,7 @@ import Input from './input';
 
 const Login = (props) => {
   return (
-    
+    <View style={{backgroundColor: secondaryColor}}>
       <View style={{alignItems: 'center', width: 460}}>
         <Text
           style={{
@@ -61,6 +61,7 @@ const Login = (props) => {
           </View>
         </View>
       </View>
+    </View>
   );
 };
 
